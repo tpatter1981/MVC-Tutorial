@@ -1,7 +1,8 @@
 
-h1,h2, h3{
+h1,h2, h3, #slides, .slide{
     text-align: center;
     font-family: 'Aboreto', cursive;
+    ;
 }
 .img{
  width: 60%;
@@ -15,6 +16,7 @@ h1,h2, h3{
     margin: 0px;
     list-style-type: none;
     text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .slide {
@@ -48,51 +50,53 @@ just for appearance; change whatever you want
     padding: 40px;
     box-sizing: border-box;
    
-    color: #fff;
+    color: black;
   
 }
 
 .slide:nth-of-type(1) {
-    background: gray;
+    background: white;
 }
-
+.slide:nth-of-type(2) {
+    background: rgb(237, 137, 197);
+}
 
 .slide:nth-of-type(3) {
-    background: rgb(131, 128, 128);
+    background: coral;
 }
 .slide:nth-of-type(4) {
-    background: rgb(46, 45, 45);
+    background: orange;
 }
 .slide:nth-of-type(5) {
-    background: rgb(161, 149, 149);
+    background: yellow;
 }
 .slide:nth-of-type(6) {
-    background: rgb(34, 32, 32);
+    background: rgb(77, 255, 0);
 }
 .slide:nth-of-type(7) {
-    background: grey;
+    background: rgb(28, 193, 193);
 }
 .slide:nth-of-type(8) {
-    background: rgb(43, 38, 38);
+    background: rgb(91, 166, 195);
 }
 .slide:nth-of-type(9) {
-    background: rgb(212, 200, 200);
+    background: rgb(23, 205, 218);
 }
 .slide:nth-of-type(10) {
-    background: rgb(48, 44, 44);
+    background: rgb(223, 145, 62);
 }
 .slide:nth-of-type(11) {
-    background: grey;
+    background: rgb(73, 99, 27);
 }
 .slide:nth-of-type(12) {
-    background: rgb(48, 42, 42);
+    background: rgb(63, 203, 173);
 }
 .slide:nth-of-type(13) {
-    background: grey;
+    background: rgb(46, 109, 28);
 }
 .slide:nth-of-type(14) {
-    background: rgb(68, 67, 67);
+    background: rgb(128, 22, 58);
 }
 .slide:nth-of-type(15) {
-    background: grey;
+    background: rgb(137, 23, 145);
 }
